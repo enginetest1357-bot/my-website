@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ポートフォリオ | 記念日 & マタニティフォト</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <header>
@@ -25,18 +27,17 @@
     <p>記念日・マタニティフォトを中心に撮影しています</p>
   </section>
 
-  <!-- 活動紹介 -->
   <section class="intro">
-    <div class="container">
-      <h2>活動について</h2>
-      <p>
-        山口県を拠点に、記念日やマタニティフォトを中心に撮影活動を行っています。<br>
-        ご家族の大切な時間を、やわらかな光とともに写真に残します。
-      </p>
-    </div>
-  </section>
+  <div class="container">
+    <h2>活動について</h2>
+    <p>
+      山口県を拠点に、記念日やマタニティフォトを中心に撮影活動を行っています。<br>
+      ご家族の大切な時間を、やわらかな光とともに写真に残します。
+    </p>
+  </div>
+</section>
 
-  <!-- ギャラリー（ダミー画像） -->
+  <!-- ギャラリー（ダミー画像6枚） -->
   <section class="home-gallery">
     <div class="container">
       <h2>Photo Samples</h2>
@@ -45,18 +46,50 @@
         <img src="https://picsum.photos/600/400?random=12" alt="sample2">
         <img src="https://picsum.photos/600/400?random=13" alt="sample3">
         <img src="https://picsum.photos/600/400?random=14" alt="sample4">
+        <img src="https://picsum.photos/600/400?random=15" alt="sample5">
+        <img src="https://picsum.photos/600/400?random=16" alt="sample6">
       </div>
     </div>
   </section>
 
   <!-- 料金 -->
-  <section class="price">
-    <div class="container">
-      <h2>料金について</h2>
-      <p>記念日フォト・マタニティフォト：<strong>¥15,000〜</strong><br>
-      （内容や時間により変動します。詳細はご相談ください。）</p>
+<!-- 料金 -->
+<section class="price">
+  <div class="container">
+    <h2>料金プラン（モニター価格）</h2>
+    <p class="price-note">現在は特別モニター価格でご提供しています</p>
+
+    <div class="price-cards">
+      <!-- 基本料金 -->
+      <div class="price-card">
+        <h3>基本料金</h3>
+        <p class="price-value">¥5,000〜</p>
+        <p>一日同行可能</p>
+      </div>
+
+      <!-- 交通費 -->
+      <div class="price-card">
+        <h3>交通費</h3>
+        <ul>
+          <li>山口県内：込み</li>
+          <li>他県：別途請求</li>
+        </ul>
+      </div>
+
+      <!-- 写真のお渡し -->
+      <div class="price-card">
+        <h3>写真のお渡し</h3>
+        <ul>
+          <li>その場でデータ即時共有</li>
+          <li>現像写真（オプション・追加料金）</li>
+        </ul>
+      </div>
     </div>
-  </section>
+
+    <p class="price-note">※ モニター価格のため、今後料金を改定する場合があります</p>
+  </div>
+</section>
+
 
   <!-- 連絡先 -->
   <section class="contact-links">
@@ -64,9 +97,21 @@
       <h2>Contact</h2>
       <p>ご依頼・ご相談は以下のリンクからお気軽にどうぞ。</p>
       <ul>
-        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
-        <li><a href="mailto:example@example.com">メールで連絡</a></li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fab fa-twitter"></i> Twitter
+          </a>
+        </li>
+        <li>
+          <a href="mailto:example@example.com">
+            <i class="fas fa-envelope"></i> メールで連絡
+          </a>
+        </li>
       </ul>
     </div>
   </section>
